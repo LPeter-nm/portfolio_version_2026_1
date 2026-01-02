@@ -24,21 +24,20 @@ Este é um portfolio interativo com design moderno e animações suaves. O site 
 - **[shadcn/ui](https://ui.shadcn.com/)** - Componentes de UI reutilizáveis
 - **[Lucide React](https://lucide.dev/)** - Biblioteca de ícones
 
-## 📂 Estrutura do Projeto
+## 📂 Estrutura Principal do Projeto
 
 ```
-├── components/
-│   └── ui/              # Componentes do shadcn/ui
-├── pages/
-│   ├── about.tsx        # Página Sobre
-│   ├── experience.tsx   # Página Experiência
-│   ├── projects.tsx     # Página Projetos
-│   ├── abilities.tsx    # Página Habilidades
-│   └── contact.tsx      # Página Contato
-├── public/
-│   └── cursor.cur       # Cursor customizado
-└── app/
-    └── page.tsx         # Página principal
+├── src
+│    └── components/
+│       └── ui/              # Componentes do shadcn/ui
+│    └── pages/
+│       ├── about.tsx        # Página Sobre
+│       ├── experience.tsx   # Página Experiência
+│       ├── projects.tsx     # Página Projetos
+│       ├── abilities.tsx    # Página Habilidades
+│       └── contact.tsx      # Página Contato
+│    └── app/
+        └── page.tsx         # Página principal
 ```
 
 ## 🎮 Funcionalidades
