@@ -1,0 +1,16 @@
+{
+  "home": {
+    "role": "Desarrollador Full-Stack",
+    "name": "Pedro Gabriel",
+    "about": "Acerca de",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "abilities": "Habilidades",
+    "contact": "Contacto"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  }
+}
