@@ -12,5 +12,128 @@
     "light": "Light",
     "dark": "Dark",
     "system": "System"
+  },
+  "about": {
+    "greeting": "Hello! I'm Pedro Gabriel, a full stack developer. With over 1 year of experience, I have been working on projects with modern web applications.",
+    "journey": "My journey began with curiosity about how things work on the web and today I work with the most modern technologies on the market, always seeking to learn at all times and deliver high quality solutions."
+  },
+  "experience": {
+    "cards": [
+      {
+        "title": "Junior Full Stack Developer",
+        "description": "Developer Community",
+        "action": "Jul 2023 - Present",
+        "content": "Non-profit developer community that carries out the development of real projects with the most modern tools on the market. I contribute to the development of web platforms and RESTful APIs, actively participating in all phases of the software development cycle, from conception to implementation and maintenance.",
+        "footer": "Technologies: React, Node.js, Express, PostgreSQL, Docker, NestJS"
+      },
+      {
+        "title": "Junior Web Developer",
+        "description": "Technology, Science and Innovation Agency (ATI)",
+        "action": "Jul 2025 - Aug 2025",
+        "content": "Agency responsible for modernizing public management and driving digital transformation in the municipality, being the developer of the Conecta Timon app, which integrates over 200 municipal services for citizens. I worked on the web development team, contributing to the development of the SEI portal (Electronic Information System) with WordPress and Elementor tools.",
+        "footer": "Technologies: WordPress and Elementor"
+      },
+      {
+        "title": "Business and Management Event Monitor",
+        "description": "Federal Institute of Maranhão (IFMA) - Timon Campus",
+        "action": "Jun 2023 - Jun 2023",
+        "content": "I worked as a monitor at the 1st Business and Management Colloquium at IFMA, assisting in the organization, coordination and support during activities. My responsibilities included helping with event logistics, ensuring the smooth running of sessions and providing support to participants and speakers.",
+        "footer": "Skills Developed: Event Organization, Communication, Teamwork"
+      }
+    ]
+  },
+  "projects": {
+    "viewDetails": "View Details",
+    "aboutProject": "About the Project",
+    "technologies": "Technologies",
+    "technologiesUsed": "Technologies Used",
+    "viewGithub": "View on GitHub",
+    "cards": [
+      {
+        "title": "Project 1",
+        "description": "Project 1 Description",
+        "action": "Project 1 Details",
+        "content": "Project 1 Content",
+        "mainImage": "/path/to/image1.jpg",
+        "imagesDetail": ["/path/to/detail1a.jpg", "/path/to/detail1b.jpg"],
+        "technologies": ["tech1", "tech2"],
+        "link": "#"
+      },
+      {
+        "title": "Project 2",
+        "description": "Project 2 Description",
+        "action": "Project 2 Details",
+        "mainImage": "/path/to/image2.jpg",
+        "content": "Project 2 Content",
+        "technologies": ["tech3", "tech4"],
+        "link": "#"
+      },
+      {
+        "title": "Project 3",
+        "description": "Project 3 Description",
+        "action": "Project 3 Details",
+        "mainImage": "/path/to/image3.jpg",
+        "content": "Project 3 Content",
+        "technologies": ["tech5", "tech6"],
+        "link": "#"
+      }
+    ]
+  },
+  "abilities": {
+    "hardSkills": "Hard Skills",
+    "softSkills": "Soft Skills",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "otherTools": "Other Tools",
+    "hardSkillsFront": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS",
+      "Next.js",
+      "React Native",
+      "WordPress"
+    ],
+    "hardSkillsBack": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "Express",
+      "PostgreSQL",
+      "NestJS",
+      "AdonisJS",
+      "JWT",
+      "Swagger",
+      "Prisma ORM"
+    ],
+    "hardSkillsOthers": [
+      "Git",
+      "GitHub",
+      "Docker",
+      "SQL",
+      "RESTful APIs",
+      "GraphQL",
+      "Figma",
+      "VS Code",
+      "Trello",
+      "Insomnia",
+      "Cloudinary",
+      "Vercel",
+      "Google Cloud"
+    ],
+    "softSkillsList": [
+      "Teamwork",
+      "Communication",
+      "Problem Solving",
+      "Adaptability",
+      "Critical Thinking",
+      "Time Management"
+    ]
+  },
+  "contact": {
+    "intro": "Feel free to contact me through the following options:",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp"
   }
 }

@@ -12,5 +12,128 @@
     "light": "Claro",
     "dark": "Oscuro",
     "system": "Sistema"
+  },
+  "about": {
+    "greeting": "¡Hola! Soy Pedro Gabriel, un desarrollador full stack. Con más de 1 año de experiencia, he estado trabajando en proyectos con aplicaciones web modernas.",
+    "journey": "Mi viaje comenzó con curiosidad sobre cómo funcionan las cosas en la web y hoy trabajo con las tecnologías más modernas del mercado, siempre buscando aprender en todo momento y entregar soluciones de alta calidad."
+  },
+  "experience": {
+    "cards": [
+      {
+        "title": "Desarrollador Full Stack Junior",
+        "description": "Developer Community",
+        "action": "Jul 2023 - Presente",
+        "content": "Comunidad de desarrolladores sin fines de lucro que realiza el desarrollo de proyectos reales con las herramientas más modernas del mercado. Contribuyo al desarrollo de plataformas web y APIs RESTful, participando activamente en todas las fases del ciclo de desarrollo de software, desde la concepción hasta la implementación y el mantenimiento.",
+        "footer": "Tecnologías: React, Node.js, Express, PostgreSQL, Docker, NestJS"
+      },
+      {
+        "title": "Desarrollador Web Junior",
+        "description": "Agencia de Tecnología, Ciencia e Innovación (ATI)",
+        "action": "Jul 2025 - Ago 2025",
+        "content": "Agencia responsable de modernizar la gestión pública e impulsar la transformación digital en el municipio, siendo la desarrolladora de la aplicación Conecta Timon, que integra más de 200 servicios municipales para el ciudadano. Trabajé en el equipo de desarrollo web, contribuyendo al desarrollo del portal SEI (Sistema Electrónico de Información) con las herramientas WordPress y Elementor.",
+        "footer": "Tecnologías: WordPress y Elementor"
+      },
+      {
+        "title": "Monitor de Evento de Gestión y Negocios",
+        "description": "Instituto Federal de Maranhão (IFMA) - Campus Timon",
+        "action": "Jun 2023 - Jun 2023",
+        "content": "Trabajé como monitor en el I Coloquio de Gestión y Negocios en IFMA, ayudando en la organización, coordinación y apoyo durante las actividades. Mis responsabilidades incluían ayudar con la logística de los eventos, garantizar el buen funcionamiento de las sesiones y brindar apoyo a los participantes y ponentes.",
+        "footer": "Habilidades Desarrolladas: Organización de Eventos, Comunicación, Trabajo en Equipo"
+      }
+    ]
+  },
+  "projects": {
+    "viewDetails": "Ver Detalles",
+    "aboutProject": "Sobre el Proyecto",
+    "technologies": "Tecnologías",
+    "technologiesUsed": "Tecnologías Utilizadas",
+    "viewGithub": "Ver en GitHub",
+    "cards": [
+      {
+        "title": "Proyecto 1",
+        "description": "Descripción del Proyecto 1",
+        "action": "Detalles del Proyecto 1",
+        "content": "Contenido del Proyecto 1",
+        "mainImage": "/path/to/image1.jpg",
+        "imagesDetail": ["/path/to/detail1a.jpg", "/path/to/detail1b.jpg"],
+        "technologies": ["tech1", "tech2"],
+        "link": "#"
+      },
+      {
+        "title": "Proyecto 2",
+        "description": "Descripción del Proyecto 2",
+        "action": "Detalles del Proyecto 2",
+        "mainImage": "/path/to/image2.jpg",
+        "content": "Contenido del Proyecto 2",
+        "technologies": ["tech3", "tech4"],
+        "link": "#"
+      },
+      {
+        "title": "Proyecto 3",
+        "description": "Descripción del Proyecto 3",
+        "action": "Detalles del Proyecto 3",
+        "mainImage": "/path/to/image3.jpg",
+        "content": "Contenido del Proyecto 3",
+        "technologies": ["tech5", "tech6"],
+        "link": "#"
+      }
+    ]
+  },
+  "abilities": {
+    "hardSkills": "Habilidades Técnicas",
+    "softSkills": "Habilidades Blandas",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "otherTools": "Otras Herramientas",
+    "hardSkillsFront": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS",
+      "Next.js",
+      "React Native",
+      "WordPress"
+    ],
+    "hardSkillsBack": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "Express",
+      "PostgreSQL",
+      "NestJS",
+      "AdonisJS",
+      "JWT",
+      "Swagger",
+      "Prisma ORM"
+    ],
+    "hardSkillsOthers": [
+      "Git",
+      "GitHub",
+      "Docker",
+      "SQL",
+      "RESTful APIs",
+      "GraphQL",
+      "Figma",
+      "VS Code",
+      "Trello",
+      "Insomnia",
+      "Cloudinary",
+      "Vercel",
+      "Google Cloud"
+    ],
+    "softSkillsList": [
+      "Trabajo en equipo",
+      "Comunicación",
+      "Resolución de problemas",
+      "Adaptabilidad",
+      "Pensamiento crítico",
+      "Gestión del tiempo"
+    ]
+  },
+  "contact": {
+    "intro": "No dudes en contactarme a través de las siguientes opciones:",
+    "email": "Correo electrónico",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp"
   }
 }
