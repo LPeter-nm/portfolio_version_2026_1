@@ -151,120 +151,121 @@ export default function Home() {
         </DropdownMenu>
       </div>
 
-      <div className="fixed top-8 left-8 w-20 h-20 pointer-events-none z-50">
-        <div
-          className="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-amber-400 via-yellow-500 to-amber-600"
-          style={{ clipPath: 'polygon(0 0, 100% 0, 95% 100%, 5% 100%)' }}
-        />
-        <div
-          className="absolute top-0 left-0 w-1 h-full bg-linear-to-b from-amber-400 via-yellow-500 to-amber-600"
-          style={{ clipPath: 'polygon(0 0, 100% 5%, 100% 95%, 0 100%)' }}
-        />
-      </div>
-
-      <div className="fixed top-8 right-8 w-20 h-20 pointer-events-none z-50">
-        <div
-          className="absolute top-0 right-0 w-full h-1 bg-linear-to-b from-amber-600 via-yellow-500 to-amber-400"
-          style={{ clipPath: 'polygon(5% 100%, 0 0, 100% 0, 95% 100%)' }}
-        />
-        <div
-          className="absolute top-0 right-0 w-1 h-full bg-linear-to-b from-amber-400 via-yellow-500 to-amber-600"
-          style={{ clipPath: 'polygon(0 5%, 100% 0, 100% 100%, 0 95%)' }}
-        />
-      </div>
-
-      <div className="fixed bottom-8 left-8 w-20 h-20 pointer-events-none z-50">
-        <div
-          className="absolute bottom-0 left-0 w-full h-1 bg-linear-to-r from-amber-400 via-yellow-500 to-amber-600"
-          style={{ clipPath: 'polygon(5% 0, 0 100%, 100% 100%, 95% 0)' }}
-        />
-        <div
-          className="absolute bottom-0 left-0 w-1 h-full bg-linear-to-b from-amber-600 via-yellow-500 to-amber-400"
-          style={{ clipPath: 'polygon(0 0, 100% 5%, 100% 95%, 0 100%)' }}
-        />
-      </div>
-
-      <div className="fixed bottom-8 right-8 w-20 h-20 pointer-events-none z-50">
-        <div
-          className="absolute bottom-0 right-0 w-full h-1 bg-linear-to-r from-amber-600 via-yellow-500 to-amber-400"
-          style={{ clipPath: 'polygon(0 100%, 5% 0, 95% 0, 100% 100%)' }}
-        />
-        <div
-          className="absolute bottom-0 right-0 w-1 h-full bg-linear-to-b from-amber-600 via-yellow-500 to-amber-400"
-          style={{ clipPath: 'polygon(0 5%, 100% 0, 100% 100%, 0 95%)' }}
-        />
-      </div>
-
       {!activePage && (
-        <div className="flex items-center justify-center space-x-12 animate-in fade-in duration-500 ">
-          <div className="flex flex-col items-center space-y-8 p-12">
-            {menuItemsRight.map((item) => (
-              <Button
-                style={{
-                  cursor: `url('/cursor.cur'), auto`,
-                }}
-                key={item.id}
-                className="bg-white text-black dark:bg-black dark:text-white hover:bg-gray-100 dark:hover:bg-[#1a1a1a] text-2xl font-[--font-custom] hover:scale-105 transition-transform"
-                onClick={() => setActivePage(item.id)}>
-                {item.label}
-              </Button>
-            ))}
-          </div>
-          <div className="flex flex-col items-center space-y-8">
-            <div className="h-12 flex items-center justify-center w-100">
-              <span className="text-3xl font-bold">
-                {displayText}
-                <span className="animate-pulse">|</span>
-              </span>
-            </div>
-            <Avatar className="h-72 w-72">
-              <AvatarImage src="https://github.com/LPeter-nm.png" />
-              <AvatarFallback>LPeter-nm</AvatarFallback>
-            </Avatar>
-            <div className="flex gap-5">
-              <button
-                style={{
-                  cursor: `url('/cursor.cur'), auto`,
-                }}
-                className="hover:transform hover:scale-110 transition-transform"
-                onClick={() => window.open('https://www.instagram.com/pedin_nm/', '_blank')}>
-                <Instagram />
-              </button>
-              <button
-                style={{
-                  cursor: `url('/cursor.cur'), auto`,
-                }}
-                className="hover:transform hover:scale-110 transition-transform"
-                onClick={() => window.open('https://github.com/LPeter-nm', '_blank')}>
-                <Github />
-              </button>
-              <button
-                style={{
-                  cursor: `url('/cursor.cur'), auto`,
-                }}
-                className="hover:transform hover:scale-110 transition-transform"
-                onClick={() =>
-                  window.open('https://www.linkedin.com/in/pedro-gabriel-488a05284/', '_blank')
-                }>
-                <Linkedin />
-              </button>
-            </div>
+        <>
+          <div className="fixed top-8 left-8 w-20 h-20 pointer-events-none z-50">
+            <div
+              className="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-amber-400 via-yellow-500 to-amber-600"
+              style={{ clipPath: 'polygon(0 0, 100% 0, 95% 100%, 5% 100%)' }}
+            />
+            <div
+              className="absolute top-0 left-0 w-1 h-full bg-linear-to-b from-amber-400 via-yellow-500 to-amber-600"
+              style={{ clipPath: 'polygon(0 0, 100% 5%, 100% 95%, 0 100%)' }}
+            />
           </div>
 
-          <div className="flex flex-col items-center space-y-8 p-12">
-            {menuItemsLeft.map((item) => (
-              <Button
-                style={{
-                  cursor: `url('/cursor.cur'), auto`,
-                }}
-                key={item.id}
-                className="bg-white text-black dark:bg-black dark:text-white hover:bg-gray-100 dark:hover:bg-[#1a1a1a] text-2xl font-[--font-custom] hover:scale-105 transition-transform"
-                onClick={() => setActivePage(item.id)}>
-                {item.label}
-              </Button>
-            ))}
+          <div className="fixed top-8 right-8 w-20 h-20 pointer-events-none z-50">
+            <div
+              className="absolute top-0 right-0 w-full h-1 bg-linear-to-b from-amber-600 via-yellow-500 to-amber-400"
+              style={{ clipPath: 'polygon(5% 100%, 0 0, 100% 0, 95% 100%)' }}
+            />
+            <div
+              className="absolute top-0 right-0 w-1 h-full bg-linear-to-b from-amber-400 via-yellow-500 to-amber-600"
+              style={{ clipPath: 'polygon(0 5%, 100% 0, 100% 100%, 0 95%)' }}
+            />
           </div>
-        </div>
+
+          <div className="fixed bottom-8 left-8 w-20 h-20 pointer-events-none z-50">
+            <div
+              className="absolute bottom-0 left-0 w-full h-1 bg-linear-to-r from-amber-400 via-yellow-500 to-amber-600"
+              style={{ clipPath: 'polygon(5% 0, 0 100%, 100% 100%, 95% 0)' }}
+            />
+            <div
+              className="absolute bottom-0 left-0 w-1 h-full bg-linear-to-b from-amber-600 via-yellow-500 to-amber-400"
+              style={{ clipPath: 'polygon(0 0, 100% 5%, 100% 95%, 0 100%)' }}
+            />
+          </div>
+
+          <div className="fixed bottom-8 right-8 w-20 h-20 pointer-events-none z-50">
+            <div
+              className="absolute bottom-0 right-0 w-full h-1 bg-linear-to-r from-amber-600 via-yellow-500 to-amber-400"
+              style={{ clipPath: 'polygon(0 100%, 5% 0, 95% 0, 100% 100%)' }}
+            />
+            <div
+              className="absolute bottom-0 right-0 w-1 h-full bg-linear-to-b from-amber-600 via-yellow-500 to-amber-400"
+              style={{ clipPath: 'polygon(0 5%, 100% 0, 100% 100%, 0 95%)' }}
+            />
+          </div>
+          <div className="flex items-center justify-center space-x-12 animate-in fade-in duration-500 ">
+            <div className="flex flex-col items-center space-y-8 p-12">
+              {menuItemsRight.map((item) => (
+                <Button
+                  style={{
+                    cursor: `url('/cursor.cur'), auto`,
+                  }}
+                  key={item.id}
+                  className="bg-white text-black dark:bg-black dark:text-white hover:bg-gray-100 dark:hover:bg-[#1a1a1a] text-2xl font-[--font-custom] hover:scale-105 transition-transform"
+                  onClick={() => setActivePage(item.id)}>
+                  {item.label}
+                </Button>
+              ))}
+            </div>
+            <div className="flex flex-col items-center space-y-8">
+              <div className="h-12 flex items-center justify-center w-100">
+                <span className="text-3xl font-bold">
+                  {displayText}
+                  <span className="animate-pulse">|</span>
+                </span>
+              </div>
+              <Avatar className="h-72 w-72">
+                <AvatarImage src="https://github.com/LPeter-nm.png" />
+                <AvatarFallback>LPeter-nm</AvatarFallback>
+              </Avatar>
+              <div className="flex gap-5">
+                <button
+                  style={{
+                    cursor: `url('/cursor.cur'), auto`,
+                  }}
+                  className="hover:transform hover:scale-110 transition-transform"
+                  onClick={() => window.open('https://www.instagram.com/pedin_nm/', '_blank')}>
+                  <Instagram />
+                </button>
+                <button
+                  style={{
+                    cursor: `url('/cursor.cur'), auto`,
+                  }}
+                  className="hover:transform hover:scale-110 transition-transform"
+                  onClick={() => window.open('https://github.com/LPeter-nm', '_blank')}>
+                  <Github />
+                </button>
+                <button
+                  style={{
+                    cursor: `url('/cursor.cur'), auto`,
+                  }}
+                  className="hover:transform hover:scale-110 transition-transform"
+                  onClick={() =>
+                    window.open('https://www.linkedin.com/in/pedro-gabriel-488a05284/', '_blank')
+                  }>
+                  <Linkedin />
+                </button>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-center space-y-8 p-12">
+              {menuItemsLeft.map((item) => (
+                <Button
+                  style={{
+                    cursor: `url('/cursor.cur'), auto`,
+                  }}
+                  key={item.id}
+                  className="bg-white text-black dark:bg-black dark:text-white hover:bg-gray-100 dark:hover:bg-[#1a1a1a] text-2xl font-[--font-custom] hover:scale-105 transition-transform"
+                  onClick={() => setActivePage(item.id)}>
+                  {item.label}
+                </Button>
+              ))}
+            </div>
+          </div>
+        </>
       )}
       {activePage && (
         <div className="min-h-screen w-full px-24 py-18 animate-in fade-in duration-500 space-y-8">
@@ -282,6 +283,8 @@ export default function Home() {
               </span>
             </button>
           </div>
+
+          <hr />
 
           <div className="max-w-7xl mx-auto">
             {(() => {
