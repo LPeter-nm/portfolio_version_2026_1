@@ -13,18 +13,26 @@ export default function Experience() {
     {
       title: 'Desenvolvedor Full Stack Júnior',
       description: 'Developer Community',
-      action: '2023 - Presente',
+      action: 'jul 2023 - Presente',
       content:
-        'Comunidade de desenvolvedores não remunerada que realiza o desenvolvimento de projetos reais com ferramentas mais modernas do mercado',
-      footer: 'Tecnologias: React, Node.js, Express, PostgreSQL, Docker',
+        'Comunidade de desenvolvedores não remunerada que realiza o desenvolvimento de projetos reais com ferramentas mais modernas do mercado. Contribuo para o desenvolvimento de plataformas web e APIs RESTful, participando ativamente em todas as fases do ciclo de desenvolvimento de software, desde a concepção até a implementação e manutenção.',
+      footer: 'Tecnologias: React, Node.js, Express, PostgreSQL, Docker, NestJS',
     },
     {
-      title: 'Desenvolvedor Full Stack Júnior',
-      description: 'Developer Community',
-      action: '2023 - Presente',
+      title: 'Desenvolvedor Web Júnior',
+      description: 'Agência de Tecnologia, Ciência e Inovação (ATI)',
+      action: 'jul 2025 - ago 2025',
       content:
-        'Comunidade de desenvolvedores não remunerada que realiza o desenvolvimento de projetos reais com ferramentas mais modernas do mercado',
-      footer: 'Tecnologias: React, Node.js, Express, PostgreSQL, Docker',
+        'Órgão responsável por modernizar a gestão pública e impulsionar a transformação digital no município, sendo a desenvolvedora do aplicativo Conecta Timon, que integra mais de 200 serviços municipais para o cidadão. Atuei na equipe de desenvolvimento web, contribuindo para o desenvolvimento do portal SEI (Sistema Eletrônico de Informações) com as ferramentas WordPress e Elementor.',
+      footer: 'Tecnologias: WordPress e Elementor',
+    },
+    {
+      title: 'Monitor de Evento de Gestão e Negócios',
+      description: 'Instituto Federal do Maranhão (IFMA) - Campus Timon',
+      action: 'jun 2023 - jun 2023',
+      content:
+        'Atuei como monitor no I Colóquio de Gestão e Negócios no IFMA, auxiliando na organização, coordenação e suporte durante as atividades. Minhas responsabilidades incluíam ajudar na logística dos eventos, garantir o bom andamento das sessões e oferecer suporte aos participantes e palestrantes.',
+      footer: 'Habilidades Desenvolvidas: Organização de Eventos, Comunicação, Trabalho em Equipe',
     },
   ];
 
