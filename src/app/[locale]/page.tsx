@@ -17,7 +17,7 @@ import { ArrowLeft, Github, Instagram, Linkedin, Moon, Sun, Languages } from 'lu
 import { useTheme } from 'next-themes';
 import { useTranslations } from 'next-intl';
 import { useRouter, useParams } from 'next/navigation';
-import { useState, useEffect, useTransition } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Home() {
   const [activePage, setActivePage] = useState<number | null>(null);
@@ -30,11 +30,9 @@ export default function Home() {
   const router = useRouter();
   const params = useParams();
   const locale = (params?.locale as string) || 'pt';
-  const [isPending, startTransition] = useTransition();
 
   const texts = [t('role'), t('name')];
 
-  // Restaura a página ativa do sessionStorage ao carregar
   useEffect(() => {
     const savedPageId = sessionStorage.getItem('activePageId');
     if (savedPageId) {
@@ -43,7 +41,6 @@ export default function Home() {
     }
   }, []);
 
-  // Atualiza sessionStorage quando muda a página ativa
   useEffect(() => {
     if (activePage !== null) {
       sessionStorage.setItem('currentPageId', String(activePage));
@@ -74,13 +71,11 @@ export default function Home() {
   }, [displayText, isDeleting, textIndex, texts]);
 
   const changeLocale = (newLocale: string) => {
-    // Salva a página atual no sessionStorage antes de mudar
     const currentPageId = sessionStorage.getItem('currentPageId');
     if (currentPageId) {
       sessionStorage.setItem('activePageId', currentPageId);
     }
 
-    // Muda o idioma
     router.push(`/${newLocale}`);
   };
 
@@ -105,7 +100,6 @@ export default function Home() {
       style={{
         cursor: `url('/cursor.cur'), auto`,
       }}>
-      {/* Theme Switcher */}
       <div className="fixed top-14 right-16 z-50">
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
@@ -127,7 +121,6 @@ export default function Home() {
         </DropdownMenu>
       </div>
 
-      {/* Language Switcher */}
       <div className="fixed top-14 right-32 z-50">
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
@@ -158,7 +151,6 @@ export default function Home() {
         </DropdownMenu>
       </div>
 
-      {/* Decorative corners */}
       <div className="fixed top-8 left-8 w-20 h-20 pointer-events-none z-50">
         <div
           className="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-amber-400 via-yellow-500 to-amber-600"
