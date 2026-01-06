@@ -50,31 +50,52 @@
     "viewGithub": "Ver no GitHub",
     "cards": [
       {
-        "title": "Projeto 1",
-        "description": "Descrição do Projeto 1",
-        "action": "Detalhes do Projeto 1",
-        "content": "Conteúdo do Projeto 1",
-        "mainImage": "/path/to/image1.jpg",
-        "imagesDetail": ["/path/to/detail1a.jpg", "/path/to/detail1b.jpg"],
-        "technologies": ["tech1", "tech2"],
+        "title": "IFReserve",
+        "description": "Sistema de Reserva de Quadra Poliesportiva",
+        "content": "Projeto finalizado para meu TCC com intuito de construir uma aplicação sugestiva para a implementação de novas funcionalidades no SUAP do IFMA Campus Timon. Com a nota 8.8 / 10, o IFReserve é um sistema de reserva de quadras poliesportivas que permite aos usuários reservar horários para utilização das quadras de forma prática e eficiente.",
+        "mainImage": "/images/ifreserve/login.png",
+        "imagesDetail": [
+          "/images/ifreserve/login.png",
+          "/images/ifreserve/register_student.png",
+          "/images/ifreserve/page_Initial.png",
+          "/images/ifreserve/page_Initial_Month.png",
+          "/images/ifreserve/page_Request_Reserve.png",
+          "/images/ifreserve/page_reserves.png",
+          "/images/ifreserve/details_Reserve.png"
+        ],
+        "technologies": ["Next.js", "Nest.js", "Google Cloud"],
         "link": "#"
       },
       {
-        "title": "Projeto 2",
-        "description": "Descrição do Projeto 2",
-        "action": "Detalhes do Projeto 2",
-        "mainImage": "/path/to/image2.jpg",
-        "content": "Conteúdo do Projeto 2",
-        "technologies": ["tech3", "tech4"],
+        "title": "Lista de Receitas",
+        "description": "Aplicação mobile de Lista de Receitas",
+        "mainImage": "#",
+        "imagesDetail": [],
+        "content": "Aplicação mobile que permite aos usuários explorar uma variedade de receitas culinárias da API DummyJSON. Os usuários podem navegar por diferentes categorias de receitas, visualizar detalhes completos, incluindo ingredientes e instruções de preparo, e salvar suas receitas favoritas para acesso rápido.",
+        "technologies": ["React Native", "DummyJSON API", "Expo Router"],
         "link": "#"
       },
       {
-        "title": "Projeto 3",
-        "description": "Descrição do Projeto 3",
-        "action": "Detalhes do Projeto 3",
-        "mainImage": "/path/to/image3.jpg",
-        "content": "Conteúdo do Projeto 3",
-        "technologies": ["tech5", "tech6"],
+        "title": "Any Recipe",
+        "description": "Sistema Web de Receitas Culinárias",
+        "mainImage": "/images/anyrecipe/home_Recipe.jpeg",
+        "imagesDetail": [
+          "/images/anyrecipe/home_Recipe.jpeg",
+          "/images/anyrecipe/login_Recipe.jpeg",
+          "/images/anyrecipe/create_Recipe.jpeg",
+          "/images/anyrecipe/detail_Recipe.jpeg"
+        ],
+        "content": "Sistema para cadastro e visualização de receitas culinárias. Os usuários podem criar uma conta, fazer login, cadastrar novas receitas com detalhes como ingredientes e instruções, e visualizar uma lista de todas as receitas cadastradas. A aplicação oferece uma interface amigável para facilitar a navegação e o gerenciamento das receitas.",
+        "technologies": ["Nest.js", "Next.js", "Docker", "Typescript", "Tailwind CSS"],
+        "link": "#"
+      },
+      {
+        "title": "E-commerce de Produtos",
+        "description": "E-commerce de Produtos Eletrônicos",
+        "mainImage": "#",
+        "imagesDetail": [],
+        "content": "Plataforma de e-commerce desenvolvida para venda de produtos variados. A aplicação permite aos usuários navegar por diferentes categorias de produtos, visualizar detalhes completos, adicionar itens ao carrinho de compras e finalizar a compra com segurança. O sistema também inclui funcionalidades administrativas para gerenciar o catálogo de produtos, pedidos e usuários.",
+        "technologies": ["React", "Axios", "Json Web Token", "PostgreSQL", "Cloudinary"],
         "link": "#"
       }
     ]

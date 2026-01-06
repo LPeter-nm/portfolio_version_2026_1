@@ -50,31 +50,52 @@
     "viewGithub": "Ver en GitHub",
     "cards": [
       {
-        "title": "Proyecto 1",
-        "description": "Descripción del Proyecto 1",
-        "action": "Detalles del Proyecto 1",
-        "content": "Contenido del Proyecto 1",
-        "mainImage": "/path/to/image1.jpg",
-        "imagesDetail": ["/path/to/detail1a.jpg", "/path/to/detail1b.jpg"],
-        "technologies": ["tech1", "tech2"],
+        "title": "IFReserve",
+        "description": "Sistema de Reserva de Cancha Polideportiva",
+        "content": "Proyecto finalizado para mi tesis con el objetivo de construir una aplicación sugestiva para la implementación de nuevas funcionalidades en el SUAP del IFMA Campus Timon. Con una calificación de 8.8/10, IFReserve es un sistema de reserva de canchas polideportivas que permite a los usuarios reservar horarios para el uso de las canchas de forma práctica y eficiente.",
+        "mainImage": "/images/ifreserve/login.png",
+        "imagesDetail": [
+          "/images/ifreserve/login.png",
+          "/images/ifreserve/register_student.png",
+          "/images/ifreserve/page_Initial.png",
+          "/images/ifreserve/page_Initial_Month.png",
+          "/images/ifreserve/page_Request_Reserve.png",
+          "/images/ifreserve/page_reserves.png",
+          "/images/ifreserve/details_Reserve.png"
+        ],
+        "technologies": ["Next.js", "Nest.js", "Google Cloud"],
         "link": "#"
       },
       {
-        "title": "Proyecto 2",
-        "description": "Descripción del Proyecto 2",
-        "action": "Detalles del Proyecto 2",
-        "mainImage": "/path/to/image2.jpg",
-        "content": "Contenido del Proyecto 2",
-        "technologies": ["tech3", "tech4"],
+        "title": "Lista de Recetas",
+        "description": "Aplicación móvil de Lista de Recetas",
+        "mainImage": "#",
+        "imagesDetail": [],
+        "content": "Aplicación móvil que permite a los usuarios explorar una variedad de recetas culinarias de la API DummyJSON. Los usuarios pueden navegar por diferentes categorías de recetas, ver detalles completos, incluidos ingredientes e instrucciones de preparación, y guardar sus recetas favoritas para un acceso rápido.",
+        "technologies": ["React Native", "DummyJSON API", "Expo Router"],
         "link": "#"
       },
       {
-        "title": "Proyecto 3",
-        "description": "Descripción del Proyecto 3",
-        "action": "Detalles del Proyecto 3",
-        "mainImage": "/path/to/image3.jpg",
-        "content": "Contenido del Proyecto 3",
-        "technologies": ["tech5", "tech6"],
+        "title": "Any Recipe",
+        "description": "Sistema de Recetas Web",
+        "mainImage": "/images/anyrecipe/home_Recipe.jpeg",
+        "imagesDetail": [
+          "/images/anyrecipe/home_Recipe.jpeg",
+          "/images/anyrecipe/login_Recipe.jpeg",
+          "/images/anyrecipe/create_Recipe.jpeg",
+          "/images/anyrecipe/detail_Recipe.jpeg"
+        ],
+        "content": "Sistema para registro y visualización de recetas culinarias. Los usuarios pueden crear una cuenta, iniciar sesión, registrar nuevas recetas con detalles como ingredientes e instrucciones, y ver una lista de todas las recetas registradas. La aplicación ofrece una interfaz amigable para facilitar la navegación y la gestión de recetas.",
+        "technologies": ["Nest.js", "Next.js", "Docker", "Typescript", "Tailwind CSS"],
+        "link": "#"
+      },
+      {
+        "title": "E-commerce de Productos",
+        "description": "Plataforma de comercio electrónico para la venta de productos variados",
+        "mainImage": "#",
+        "imagesDetail": [],
+        "content": "Plataforma de comercio electrónico desarrollada para la venta de productos variados. La aplicación permite a los usuarios navegar por diferentes categorías de productos, ver detalles completos, agregar artículos al carrito de compras y finalizar la compra de forma segura. El sistema también incluye funcionalidades administrativas para gestionar el catálogo de productos, pedidos y usuarios.",
+        "technologies": ["React", "Axios", "Json Web Token", "PostgreSQL", "Cloudinary"],
         "link": "#"
       }
     ]
