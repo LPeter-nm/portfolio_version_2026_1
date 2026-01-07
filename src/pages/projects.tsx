@@ -38,7 +38,7 @@ export default function Projects() {
         return (
           <Card
             key={index}
-            className="transition-all duration-300 hover:scale-100 hover:-translate-y-[0.5] hover:shadow-2xl active:scale-90 dark:shadow-orange-800/20 shadow-orange-300/20 mb-6"
+            className="transition-all duration-300 hover:scale-95 hover:-translate-y-[0.5] hover:shadow-2xl active:scale-95 dark:shadow-orange-800/20 shadow-orange-300/20 mb-6"
             style={{
               cursor: `url('/cursor.cur'), auto`,
             }}>
@@ -63,11 +63,7 @@ export default function Projects() {
             </CardContent>
             <CardFooter className="flex items-center justify-center w-full">
               <Dialog>
-                <DialogTrigger
-                  style={{
-                    cursor: `url('/cursor.cur'), auto`,
-                  }}
-                  asChild>
+                <DialogTrigger asChild>
                   <button
                     style={{
                       cursor: `url('/cursor.cur'), auto`,
