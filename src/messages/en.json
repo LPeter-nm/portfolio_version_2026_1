@@ -15,7 +15,7 @@
     "system": "System"
   },
   "about": {
-    "greeting": "Hello! I'm a Full-Stack developer focused on Back-end, almost graduated in Internet Systems and an Electronics Technician from IFMA Timon Campus.",
+    "greeting": "Hello! I'm Pedro Gabriel and I'm 20 years old, I'm a Full-Stack developer focused on Back-end, almost graduated in Internet Systems and an Electronics Technician from IFMA Timon Campus.",
     "journey": "My programming foundation started with Python, where I developed solid logic that I now apply in the Node.js ecosystem. I specialize in building scalable APIs and systems using TypeScript, NestJS, AdonisJS, and PostgreSQL, always focusing on best practices and organization through Docker. Professionally, I stood out at Developer Community, where I worked on pilot project development and management assistance, and at ATI Timon, where I delivered the SEI system information portal.",
     "objective": "I'm looking for opportunities that allow me to apply my technical skills and grow professionally, contributing to challenging projects. My goal is to continue evolving in the development of complex solutions, always focused on performance, transparency, and innovation."
   },

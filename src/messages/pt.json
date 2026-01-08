@@ -15,7 +15,7 @@
     "system": "Sistema"
   },
   "about": {
-    "greeting": "Olá! Sou desenvolvedor Full-Stack com foco em Back-end, quase graduado em Sistemas para Internet e técnico em Eletroeletrônica pelo IFMA Campus Timon.",
+    "greeting": "Olá! Sou Pedro Gabriel e tenho 20 anos, sou desenvolvedor Full-Stack com foco em Back-end, quase graduado em Sistemas para Internet e técnico em Eletroeletrônica pelo IFMA Campus Timon.",
     "journey": "Minha base na programação começou com Python, onde desenvolvi uma lógica sólida que hoje aplico no ecossistema Node.js. Sou especialista em construir APIs e sistemas escaláveis utilizando TypeScript, NestJS, AdonisJS e PostgreSQL, sempre com foco em boas práticas e organização via Docker. No campo profissional, destaquei-me na Developer Community, onde atuei no desenvolvimento de projetos piloto e na assistência de gestão, e na ATI Timon, onde entreguei o portal informativo do sistema SEI.",
     "objective": "Estou em busca de oportunidades que me permitam aplicar minhas habilidades técnicas e crescer profissionalmente, contribuindo para projetos desafiadores. Meu objetivo é continuar evoluindo no desenvolvimento de soluções complexas, sempre focado em performance, transparência e inovação."
   },
