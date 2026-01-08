@@ -8,7 +8,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@/components/sections/ui/card';
+} from '@/components/ui/card';
 import { useTranslations } from 'next-intl';
 
 export default function Experience() {

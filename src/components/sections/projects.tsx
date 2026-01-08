@@ -7,7 +7,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@/components/sections/ui/card';
+} from '@/components/ui/card';
 import {
   Dialog,
   DialogContent,
@@ -15,14 +15,14 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@/components/sections/ui/dialog';
+} from '@/components/ui/dialog';
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from '@/components/sections/ui/carousel';
+} from '@/components/ui/carousel';
 import { useTranslations } from 'next-intl';
 
 export default function Projects() {

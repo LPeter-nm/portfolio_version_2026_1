@@ -7,7 +7,7 @@ export default function Contact() {
   const t = useTranslations('contact');
 
   return (
-    <div className="flex flex-col min-h-screen p-6 text-lg">
+    <div className="flex flex-col text-lg">
       {t('intro')}
       <div className="flex flex-col mt-4 space-y-3">
         <div className="flex items-center gap-2">
