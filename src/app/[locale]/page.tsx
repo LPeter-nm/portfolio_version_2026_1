@@ -225,7 +225,6 @@ export default function Home() {
               </div>
               <Avatar className="h-72 w-72">
                 <AvatarImage src="https://github.com/LPeter-nm.png" />
-                <AvatarFallback>LPeter-nm</AvatarFallback>
               </Avatar>
               <TooltipProvider>
                 <div className="flex gap-5">
