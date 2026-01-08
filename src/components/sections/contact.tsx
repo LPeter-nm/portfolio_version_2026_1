@@ -1,7 +1,6 @@
 'use client';
 
-import { Linkedin, Mail, Instagram } from 'lucide-react';
-import { WhatsApp } from '@mui/icons-material';
+import { Linkedin, Mail, Instagram, Phone } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 export default function Contact() {
@@ -30,7 +29,7 @@ export default function Contact() {
           </a>
         </div>
         <div className="flex items-center gap-2">
-          <WhatsApp className="inline-block mr-2 mb-1" />
+          <Phone className="inline-block mr-2 mb-1" />
           <a
             href="https://wa.me/5586988242498"
             target="_blank"

@@ -1,19 +1,24 @@
 'use client';
 
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { Button } from '@/components/ui/button';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/sections/ui/avatar';
+import { Button } from '@/components/sections/ui/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
-import Abilities from '@/pages/abilities';
-import About from '@/pages/about';
-import Contact from '@/pages/contact';
-import Experience from '@/pages/experience';
-import Projects from '@/pages/projects';
+} from '@/components/sections/ui/dropdown-menu';
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from '@/components/sections/ui/tooltip';
+import Abilities from '@/components/sections/abilities';
+import About from '@/components/sections/about';
+import Contact from '@/components/sections/contact';
+import Experience from '@/components/sections/experience';
+import Projects from '@/components/sections/projects';
 import { ArrowLeft, Github, Linkedin, Moon, Sun, Languages, FileText } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import { useTranslations } from 'next-intl';
