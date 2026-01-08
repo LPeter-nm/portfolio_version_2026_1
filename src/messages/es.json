@@ -2,7 +2,7 @@
   "home": {
     "role": "Desarrollador Full-Stack",
     "name": "Pedro Gabriel",
-    "about": "Acerca de",
+    "about": "Sobre mí",
     "experience": "Experiencia",
     "projects": "Proyectos",
     "abilities": "Habilidades",
@@ -15,8 +15,8 @@
     "system": "Sistema"
   },
   "about": {
-    "greeting": "¡Hola! Soy desarrollador Full-Stack con enfoque en Back-end, casi graduado en Sistemas para Internet y técnico en Electrónica por el IFMA Campus Timon.",
-    "journey": "Mi base en la programación comenzó con Python, donde desarrollé una lógica sólida que hoy aplico en el ecosistema Node.js. Soy especialista en construir APIs y sistemas escalables utilizando TypeScript, NestJS, AdonisJS y PostgreSQL, siempre con enfoque en las buenas prácticas y organización vía Docker. En el ámbito profesional, me destaqué en la Developer Community, donde trabajé en el desarrollo de proyectos piloto y en asistencia de gestión, y en la ATI Timon, donde entregué el portal informativo del sistema SEI.",
+    "greeting": "¡Hola! Soy desarrollador Full-Stack con enfoque en Backend, casi graduado en Sistemas para Internet y técnico en Electrónica por el IFMA Campus Timon.",
+    "journey": "Mi base en la programación comenzó con Python, donde desarrollé una lógica sólida que hoy aplico en el ecosistema Node.js. Soy especialista en construir APIs y sistemas escalables utilizando TypeScript, NestJS, AdonisJS y PostgreSQL, siempre con un enfoque en las buenas prácticas y la organización vía Docker. En el ámbito profesional, me destaqué en la Developer Community, donde trabajé en el desarrollo de proyectos piloto y en la asistencia de gestión, y en la ATI Timon, donde entregué el portal informativo del sistema SEI.",
     "objective": "Busco oportunidades que me permitan aplicar mis habilidades técnicas y crecer profesionalmente, contribuyendo a proyectos desafiantes. Mi objetivo es seguir evolucionando en el desarrollo de soluciones complejas, siempre enfocado en el rendimiento, la transparencia y la innovación."
   },
   "experience": {
@@ -24,22 +24,22 @@
       {
         "title": "Desarrollador Full Stack Junior",
         "description": "Developer Community",
-        "action": "Jul 2023 - Presente",
-        "content": "Comunidad de desarrolladores sin fines de lucro que realiza el desarrollo de proyectos reales con las herramientas más modernas del mercado. Contribuyo al desarrollo de plataformas web y APIs RESTful, participando activamente en todas las fases del ciclo de desarrollo de software, desde la concepción hasta la implementación y el mantenimiento.",
+        "action": "jul 2023 - Actualidad",
+        "content": "Comunidad de desarrolladores no remunerada que realiza el desarrollo de proyectos reales con las herramientas más modernas del mercado. Contribuyo al desarrollo de plataformas web y APIs RESTful, participando activamente en todas las fases del ciclo de desarrollo de software, desde la concepción hasta la implementación y el mantenimiento.",
         "footer": "Tecnologías: React, Node.js, Express, PostgreSQL, Docker, NestJS"
       },
       {
         "title": "Desarrollador Web Junior",
         "description": "Agencia de Tecnología, Ciencia e Innovación (ATI)",
-        "action": "Jul 2025 - Ago 2025",
-        "content": "Agencia responsable de modernizar la gestión pública e impulsar la transformación digital en el municipio, siendo la desarrolladora de la aplicación Conecta Timon, que integra más de 200 servicios municipales para el ciudadano. Trabajé en el equipo de desarrollo web, contribuyendo al desarrollo del portal SEI (Sistema Electrónico de Información) con las herramientas WordPress y Elementor.",
+        "action": "jul 2025 - ago 2025",
+        "content": "Organismo responsable de modernizar la gestión pública e impulsar la transformación digital en el municipio, siendo la desarrolladora de la aplicación Conecta Timon, que integra más de 200 servicios municipales para el ciudadano. Trabajé en el equipo de desarrollo web, contribuyendo al desarrollo del portal SEI (Sistema Electrónico de Información) con las herramientas WordPress y Elementor.",
         "footer": "Tecnologías: WordPress y Elementor"
       },
       {
         "title": "Monitor de Evento de Gestión y Negocios",
         "description": "Instituto Federal de Maranhão (IFMA) - Campus Timon",
-        "action": "Jun 2023 - Jun 2023",
-        "content": "Trabajé como monitor en el I Coloquio de Gestión y Negocios en IFMA, ayudando en la organización, coordinación y apoyo durante las actividades. Mis responsabilidades incluían ayudar con la logística de los eventos, garantizar el buen funcionamiento de las sesiones y brindar apoyo a los participantes y ponentes.",
+        "action": "jun 2023 - jun 2023",
+        "content": "Trabajé como monitor en el I Coloquio de Gestión y Negocios en el IFMA, auxiliando en la organización, coordinación y soporte durante las actividades. Mis responsabilidades incluían ayudar en la logística de los eventos, garantizar el buen funcionamiento de las sesiones y ofrecer soporte a los participantes y ponentes.",
         "footer": "Habilidades Desarrolladas: Organización de Eventos, Comunicación, Trabajo en Equipo"
       }
     ]
@@ -54,7 +54,7 @@
       {
         "title": "IFReserve",
         "description": "Sistema de Reserva de Cancha Polideportiva",
-        "content": "Proyecto finalizado para mi tesis con el objetivo de construir una aplicación sugestiva para la implementación de nuevas funcionalidades en el SUAP del IFMA Campus Timon. Con una calificación de 8.8/10, IFReserve es un sistema de reserva de canchas polideportivas que permite a los usuarios reservar horarios para el uso de las canchas de forma práctica y eficiente.",
+        "content": "Proyecto finalizado para mi TFG con el fin de construir una aplicación sugerente para la implementación de nuevas funcionalidades en el SUAP del IFMA Campus Timon. Con una nota de 8.8 / 10, IFReserve es un sistema de reserva de canchas polideportivas que permite a los usuarios reservar horarios para el uso de las instalaciones de forma práctica y eficiente.",
         "mainImage": "/images/ifreserve/login.png",
         "imagesDetail": [
           "/images/ifreserve/login.png",
@@ -66,16 +66,16 @@
           "/images/ifreserve/details_Reserve.png"
         ],
         "technologies": ["Next.js", "Nest.js", "Google Cloud"],
-        "link": "#"
+        "link": "https://github.com/LPeter-nm/front-end-ifreserve"
       },
       {
         "title": "Lista de Recetas",
-        "description": "Aplicación Móvil de Lista de Recetas",
+        "description": "Aplicación móvil de Lista de Recetas",
         "mainImage": "#",
         "imagesDetail": [],
-        "content": "Aplicación móvil que permite a los usuarios explorar una variedad de recetas culinarias de la API DummyJSON. Los usuarios pueden navegar por diferentes categorías de recetas, ver detalles completos, incluidos ingredientes e instrucciones de preparación, y guardar sus recetas favoritas para un acceso rápido.",
+        "content": "Aplicación móvil que permite a los usuarios navegar por diferentes categorías de recetas, ver detalles completos, incluyendo ingredientes e instrucciones de preparación, y guardar sus recetas favoritas para un acceso rápido. Trabajo destinado a la entrega en la asignatura de Desarrollo Móvil de la carrera de Sistemas para Internet del IFMA Campus Timon.",
         "technologies": ["React Native", "DummyJSON API", "Expo Router"],
-        "link": "#"
+        "link": "https://github.com/LPeter-nm/recipe_mobile"
       },
       {
         "title": "Any Recipe",
@@ -87,24 +87,24 @@
           "/images/anyrecipe/create_Recipe.jpeg",
           "/images/anyrecipe/detail_Recipe.jpeg"
         ],
-        "content": "Sistema para registro y visualización de recetas culinarias. Los usuarios pueden crear una cuenta, iniciar sesión, registrar nuevas recetas con detalles como ingredientes e instrucciones, y ver una lista de todas las recetas registradas. La aplicación ofrece una interfaz amigable para facilitar la navegación y la gestión de recetas.",
-        "technologies": ["Nest.js", "Next.js", "Docker", "Typescript", "Tailwind CSS"],
-        "link": "#"
+        "content": "Sistema donde los usuarios pueden crear una cuenta, iniciar sesión, registrar nuevas recetas con detalles como ingredientes e instrucciones, y visualizar una lista de todas las recetas registradas. Trabajo destinado a la entrega en la asignatura de Desarrollo Web de la carrera de Sistemas para Internet del IFMA Campus Timon, en el cual participé activamente en el backend y contribuí con el frontend.",
+        "technologies": ["Nest.js", "Next.js", "Docker"],
+        "link": "https://github.com/LPeter-nm/recipe-back-end"
       },
       {
         "title": "E-commerce de Productos",
         "description": "E-commerce de Productos Electrónicos",
         "mainImage": "#",
         "imagesDetail": [],
-        "content": "Plataforma de comercio electrónico desarrollada para la venta de productos variados. La aplicación permite a los usuarios navegar por diferentes categorías de productos, ver detalles completos, agregar artículos al carrito de compras y finalizar la compra de forma segura. El sistema también incluye funcionalidades administrativas para gestionar el catálogo de productos, pedidos y usuarios.",
-        "technologies": ["React", "Axios", "Json Web Token", "PostgreSQL", "Cloudinary"],
-        "link": "#"
+        "content": "Plataforma de comercio electrónico desarrollada para la venta de productos variados. La aplicación permite a los usuarios navegar por diferentes categorías de productos, ver detalles completos, añadir artículos al carrito de compras y finalizar la compra de forma segura. El sistema también incluye funcionalidades administrativas para gestionar el catálogo de productos, pedidos y usuarios. Trabajo en equipo en la comunidad Developer Community, donde fui responsable del desarrollo del backend utilizando Nest.js y PostgreSQL.",
+        "technologies": ["React", "Axios", "Nest.js", "PostgreSQL", "Cloudinary"],
+        "link": "https://github.com/DeveloperCommunitty/E-commerce-back-end"
       }
     ]
   },
   "abilities": {
-    "hardSkills": "Habilidades Técnicas",
-    "softSkills": "Habilidades Blandas",
+    "hardSkills": "Hard Skills",
+    "softSkills": "Soft Skills",
     "frontend": "Frontend",
     "backend": "Backend",
     "otherTools": "Otras Herramientas",
@@ -114,11 +114,11 @@
       { "name": "JavaScript", "icon": "/images/icons/javascript-original.svg" },
       { "name": "Tailwind CSS", "icon": "/images/icons/tailwindcss-original.svg" },
       { "name": "Next.js", "icon": "/images/icons/nextjs-original.svg" },
+      { "name": "React", "icon": "/images/icons/react-original.svg" },
       { "name": "React Native", "icon": "/images/icons/react-original.svg" },
       { "name": "WordPress", "icon": "/images/icons/wordpress-original.svg" }
     ],
     "hardSkillsBack": [
-      { "name": "React", "icon": "/images/icons/react-original.svg" },
       { "name": "Node.js", "icon": "/images/icons/nodejs-original.svg" },
       { "name": "TypeScript", "icon": "/images/icons/typescript-original.svg" },
       { "name": "Express", "icon": "/images/icons/express-original.svg" },
@@ -149,6 +149,6 @@
     ]
   },
   "contact": {
-    "intro": "No dudes en contactarme a través de las siguientes opciones:"
+    "intro": "No dudes en ponerte en contacto conmigo a través de las siguientes opciones:"
   }
 }

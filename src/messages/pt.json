@@ -66,16 +66,16 @@
           "/images/ifreserve/details_Reserve.png"
         ],
         "technologies": ["Next.js", "Nest.js", "Google Cloud"],
-        "link": "#"
+        "link": "https://github.com/LPeter-nm/front-end-ifreserve"
       },
       {
         "title": "Lista de Receitas",
         "description": "Aplicação mobile de Lista de Receitas",
         "mainImage": "#",
         "imagesDetail": [],
-        "content": "Aplicação mobile que permite aos usuários explorar uma variedade de receitas culinárias da API DummyJSON. Os usuários podem navegar por diferentes categorias de receitas, visualizar detalhes completos, incluindo ingredientes e instruções de preparo, e salvar suas receitas favoritas para acesso rápido.",
+        "content": "Aplicação mobile que permite aos usuários navegar por diferentes categorias de receitas, visualizar detalhes completos, incluindo ingredientes e instruções de preparo, e salvar suas receitas favoritas para acesso rápido. Trabalho destinado para a entrega na disciplina de Desenvolvimento Mobile do curso de Sistemas para Internet do IFMA Campus Timon.",
         "technologies": ["React Native", "DummyJSON API", "Expo Router"],
-        "link": "#"
+        "link": "https://github.com/LPeter-nm/recipe_mobile"
       },
       {
         "title": "Any Recipe",
@@ -87,18 +87,18 @@
           "/images/anyrecipe/create_Recipe.jpeg",
           "/images/anyrecipe/detail_Recipe.jpeg"
         ],
-        "content": "Sistema para cadastro e visualização de receitas culinárias. Os usuários podem criar uma conta, fazer login, cadastrar novas receitas com detalhes como ingredientes e instruções, e visualizar uma lista de todas as receitas cadastradas. A aplicação oferece uma interface amigável para facilitar a navegação e o gerenciamento das receitas.",
-        "technologies": ["Nest.js", "Next.js", "Docker", "Typescript", "Tailwind CSS"],
-        "link": "#"
+        "content": "Sistema onde os usuários podem criar uma conta, fazer login, cadastrar novas receitas com detalhes como ingredientes e instruções, e visualizar uma lista de todas as receitas cadastradas. Trabalho destinado para a entrega na disciplina de Desenvolvimento Web do curso de Sistemas para Internet do IFMA Campus Timon em que participei ativamente no back end e contribuí com o frontend.",
+        "technologies": ["Nest.js", "Next.js", "Docker"],
+        "link": "https://github.com/LPeter-nm/recipe-back-end"
       },
       {
         "title": "E-commerce de Produtos",
         "description": "E-commerce de Produtos Eletrônicos",
         "mainImage": "#",
         "imagesDetail": [],
-        "content": "Plataforma de e-commerce desenvolvida para venda de produtos variados. A aplicação permite aos usuários navegar por diferentes categorias de produtos, visualizar detalhes completos, adicionar itens ao carrinho de compras e finalizar a compra com segurança. O sistema também inclui funcionalidades administrativas para gerenciar o catálogo de produtos, pedidos e usuários.",
-        "technologies": ["React", "Axios", "Json Web Token", "PostgreSQL", "Cloudinary"],
-        "link": "#"
+        "content": "Plataforma de e-commerce desenvolvida para venda de produtos variados. A aplicação permite aos usuários navegar por diferentes categorias de produtos, visualizar detalhes completos, adicionar itens ao carrinho de compras e finalizar a compra com segurança. O sistema também inclui funcionalidades administrativas para gerenciar o catálogo de produtos, pedidos e usuários. Trabalho em equipe na comunidade Developer Community, onde fui responsável pelo desenvolvimento do back end utilizando Nest.js e PostgreSQL.",
+        "technologies": ["React", "Axios", "Nest.js", "PostgreSQL", "Cloudinary"],
+        "link": "https://github.com/DeveloperCommunitty/E-commerce-back-end"
       }
     ]
   },

@@ -73,7 +73,7 @@ export default function Projects() {
                   </button>
                 </DialogTrigger>
                 <DialogContent
-                  className="max-w-3xl"
+                  className="max-w-3xl max-h-[calc(100vh-4rem)] overflow-y-auto"
                   style={{
                     cursor: `url('/cursor.cur'), auto`,
                   }}>
@@ -82,7 +82,7 @@ export default function Projects() {
                   </DialogHeader>
                   <div className="space-y-4">
                     {hasDetailImages ? (
-                      <Carousel className="w-full">
+                      <Carousel className="w-[85%] mx-auto">
                         <CarouselContent>
                           {project.imagesDetail.map((image: string, imgIndex: number) => (
                             <CarouselItem key={imgIndex}>

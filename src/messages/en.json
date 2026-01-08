@@ -15,9 +15,9 @@
     "system": "System"
   },
   "about": {
-    "greeting": "Hi! I am a Full-Stack developer focused on Back-end, nearing graduation in Internet Systems and a graduate in Electrotechnics from IFMA Campus Timon.",
-    "journey": "My programming foundation started with Python, where I developed a solid logic that I now apply to the Node.js ecosystem. I specialize in building APIs and scalable systems using TypeScript, NestJS, AdonisJS, and PostgreSQL, always focusing on best practices and organization via Docker. Professionally, I stood out in the Developer Community, where I worked on pilot projects and management assistance, and at ATI Timon, where I delivered the informative portal for the SEI system.",
-    "objective": "I am seeking opportunities that allow me to apply my technical skills and grow professionally, contributing to challenging projects. My goal is to continue evolving in the development of complex solutions, always focused on performance, transparency, and innovation."
+    "greeting": "Hello! I'm a Full-Stack developer focused on Back-end, almost graduated in Internet Systems and an Electronics Technician from IFMA Timon Campus.",
+    "journey": "My programming foundation started with Python, where I developed solid logic that I now apply in the Node.js ecosystem. I specialize in building scalable APIs and systems using TypeScript, NestJS, AdonisJS, and PostgreSQL, always focusing on best practices and organization through Docker. Professionally, I stood out at Developer Community, where I worked on pilot project development and management assistance, and at ATI Timon, where I delivered the SEI system information portal.",
+    "objective": "I'm looking for opportunities that allow me to apply my technical skills and grow professionally, contributing to challenging projects. My goal is to continue evolving in the development of complex solutions, always focused on performance, transparency, and innovation."
   },
   "experience": {
     "cards": [
@@ -66,16 +66,16 @@
           "/images/ifreserve/details_Reserve.png"
         ],
         "technologies": ["Next.js", "Nest.js", "Google Cloud"],
-        "link": "#"
+        "link": "https://github.com/LPeter-nm/front-end-ifreserve"
       },
       {
         "title": "Recipe List",
         "description": "Mobile Recipe List Application",
         "mainImage": "#",
         "imagesDetail": [],
-        "content": "Mobile application that allows users to explore a variety of culinary recipes from the DummyJSON API. Users can browse through different recipe categories, view complete details including ingredients and preparation instructions, and save their favorite recipes for quick access.",
+        "content": "Mobile application that allows users to browse through different recipe categories, view complete details including ingredients and preparation instructions, and save their favorite recipes for quick access. Project delivered for the Mobile Development course at the Internet Systems program at IFMA Timon Campus.",
         "technologies": ["React Native", "DummyJSON API", "Expo Router"],
-        "link": "#"
+        "link": "https://github.com/LPeter-nm/recipe_mobile"
       },
       {
         "title": "Any Recipe",
@@ -87,18 +87,18 @@
           "/images/anyrecipe/create_Recipe.jpeg",
           "/images/anyrecipe/detail_Recipe.jpeg"
         ],
-        "content": "System for registering and viewing culinary recipes. Users can create an account, log in, register new recipes with details such as ingredients and instructions, and view a list of all registered recipes. The application offers a user-friendly interface to facilitate navigation and recipe management.",
-        "technologies": ["Nest.js", "Next.js", "Docker", "Typescript", "Tailwind CSS"],
-        "link": "#"
+        "content": "System where users can create an account, log in, register new recipes with details such as ingredients and instructions, and view a list of all registered recipes. Project delivered for the Web Development course at the Internet Systems program at IFMA Timon Campus, where I actively participated in the backend and contributed to the frontend.",
+        "technologies": ["Nest.js", "Next.js", "Docker"],
+        "link": "https://github.com/LPeter-nm/recipe-back-end"
       },
       {
         "title": "Product E-commerce",
         "description": "Electronic Products E-commerce",
         "mainImage": "#",
         "imagesDetail": [],
-        "content": "E-commerce platform developed for selling various products. The application allows users to browse through different product categories, view complete details, add items to the shopping cart, and complete purchases securely. The system also includes administrative functionalities to manage the product catalog, orders, and users.",
-        "technologies": ["React", "Axios", "Json Web Token", "PostgreSQL", "Cloudinary"],
-        "link": "#"
+        "content": "E-commerce platform developed for selling various products. The application allows users to browse through different product categories, view complete details, add items to the shopping cart, and complete purchases securely. The system also includes administrative functionalities to manage the product catalog, orders, and users. Team project at the Developer Community, where I was responsible for backend development using Nest.js and PostgreSQL.",
+        "technologies": ["React", "Axios", "Nest.js", "PostgreSQL", "Cloudinary"],
+        "link": "https://github.com/DeveloperCommunitty/E-commerce-back-end"
       }
     ]
   },
@@ -114,11 +114,11 @@
       { "name": "JavaScript", "icon": "/images/icons/javascript-original.svg" },
       { "name": "Tailwind CSS", "icon": "/images/icons/tailwindcss-original.svg" },
       { "name": "Next.js", "icon": "/images/icons/nextjs-original.svg" },
+      { "name": "React", "icon": "/images/icons/react-original.svg" },
       { "name": "React Native", "icon": "/images/icons/react-original.svg" },
       { "name": "WordPress", "icon": "/images/icons/wordpress-original.svg" }
     ],
     "hardSkillsBack": [
-      { "name": "React", "icon": "/images/icons/react-original.svg" },
       { "name": "Node.js", "icon": "/images/icons/nodejs-original.svg" },
       { "name": "TypeScript", "icon": "/images/icons/typescript-original.svg" },
       { "name": "Express", "icon": "/images/icons/express-original.svg" },
