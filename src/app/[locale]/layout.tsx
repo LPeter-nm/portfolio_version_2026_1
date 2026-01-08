@@ -17,7 +17,6 @@ export default async function LocaleLayout({ children, params }: Props) {
     notFound();
   }
 
-  // Força o carregamento das mensagens para o locale específico
   const messages = await getMessages({ locale });
 
   return (

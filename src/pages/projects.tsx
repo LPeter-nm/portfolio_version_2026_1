@@ -61,7 +61,7 @@ export default function Projects() {
                 {t('technologies')}: {project.technologies.join(', ')}
               </span>
             </CardContent>
-            <CardFooter className="flex items-center justify-center w-full">
+            <CardFooter className="flex items-end justify-center w-full h-full">
               <Dialog>
                 <DialogTrigger asChild>
                   <button

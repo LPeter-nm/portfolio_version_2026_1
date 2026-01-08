@@ -6,7 +6,8 @@
     "experience": "Experience",
     "projects": "Projects",
     "abilities": "Skills",
-    "contact": "Contact"
+    "contact": "Contact",
+    "resume": "Resume"
   },
   "theme": {
     "light": "Light",
@@ -14,8 +15,9 @@
     "system": "System"
   },
   "about": {
-    "greeting": "Hello! I'm Pedro Gabriel, a full stack developer. With over 1 year of experience, I have been working on projects with modern web applications.",
-    "journey": "My journey began with curiosity about how things work on the web and today I work with the most modern technologies on the market, always seeking to learn at all times and deliver high quality solutions."
+    "greeting": "Hi! I am a Full-Stack developer focused on Back-end, nearing graduation in Internet Systems and a graduate in Electrotechnics from IFMA Campus Timon.",
+    "journey": "My programming foundation started with Python, where I developed a solid logic that I now apply to the Node.js ecosystem. I specialize in building APIs and scalable systems using TypeScript, NestJS, AdonisJS, and PostgreSQL, always focusing on best practices and organization via Docker. Professionally, I stood out in the Developer Community, where I worked on pilot projects and management assistance, and at ATI Timon, where I delivered the informative portal for the SEI system.",
+    "objective": "I am seeking opportunities that allow me to apply my technical skills and grow professionally, contributing to challenging projects. My goal is to continue evolving in the development of complex solutions, always focused on performance, transparency, and innovation."
   },
   "experience": {
     "cards": [
@@ -68,7 +70,7 @@
       },
       {
         "title": "Recipe List",
-        "description": "Mobile Recipe Application",
+        "description": "Mobile Recipe List Application",
         "mainImage": "#",
         "imagesDetail": [],
         "content": "Mobile application that allows users to explore a variety of culinary recipes from the DummyJSON API. Users can browse through different recipe categories, view complete details including ingredients and preparation instructions, and save their favorite recipes for quick access.",
@@ -77,7 +79,7 @@
       },
       {
         "title": "Any Recipe",
-        "description": "Web Recipe System",
+        "description": "Web Culinary Recipe System",
         "mainImage": "/images/anyrecipe/home_Recipe.jpeg",
         "imagesDetail": [
           "/images/anyrecipe/home_Recipe.jpeg",
@@ -91,7 +93,7 @@
       },
       {
         "title": "Product E-commerce",
-        "description": "E-commerce of Electronic Products",
+        "description": "Electronic Products E-commerce",
         "mainImage": "#",
         "imagesDetail": [],
         "content": "E-commerce platform developed for selling various products. The application allows users to browse through different product categories, view complete details, add items to the shopping cart, and complete purchases securely. The system also includes administrative functionalities to manage the product catalog, orders, and users.",
@@ -107,40 +109,35 @@
     "backend": "Backend",
     "otherTools": "Other Tools",
     "hardSkillsFront": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Tailwind CSS",
-      "Next.js",
-      "React Native",
-      "WordPress"
+      { "name": "HTML", "icon": "/images/icons/html5-original.svg" },
+      { "name": "CSS", "icon": "/images/icons/css3-original.svg" },
+      { "name": "JavaScript", "icon": "/images/icons/javascript-original.svg" },
+      { "name": "Tailwind CSS", "icon": "/images/icons/tailwindcss-original.svg" },
+      { "name": "Next.js", "icon": "/images/icons/nextjs-original.svg" },
+      { "name": "React Native", "icon": "/images/icons/react-original.svg" },
+      { "name": "WordPress", "icon": "/images/icons/wordpress-original.svg" }
     ],
     "hardSkillsBack": [
-      "React",
-      "Node.js",
-      "TypeScript",
-      "Express",
-      "PostgreSQL",
-      "NestJS",
-      "AdonisJS",
-      "JWT",
-      "Swagger",
-      "Prisma ORM"
+      { "name": "React", "icon": "/images/icons/react-original.svg" },
+      { "name": "Node.js", "icon": "/images/icons/nodejs-original.svg" },
+      { "name": "TypeScript", "icon": "/images/icons/typescript-original.svg" },
+      { "name": "Express", "icon": "/images/icons/express-original.svg" },
+      { "name": "PostgreSQL", "icon": "/images/icons/postgresql-original.svg" },
+      { "name": "NestJS", "icon": "/images/icons/nestjs-original.svg" },
+      { "name": "AdonisJS", "icon": "/images/icons/adonisjs-original.svg" },
+      { "name": "Swagger", "icon": "/images/icons/swagger-original.svg" },
+      { "name": "Prisma ORM", "icon": "/images/icons/prisma-original.svg" }
     ],
     "hardSkillsOthers": [
-      "Git",
-      "GitHub",
-      "Docker",
-      "SQL",
-      "RESTful APIs",
-      "GraphQL",
-      "Figma",
-      "VS Code",
-      "Trello",
-      "Insomnia",
-      "Cloudinary",
-      "Vercel",
-      "Google Cloud"
+      { "name": "Git", "icon": "/images/icons/git-original.svg" },
+      { "name": "Docker", "icon": "/images/icons/docker-original.svg" },
+      { "name": "Figma", "icon": "/images/icons/figma-original.svg" },
+      { "name": "VS Code", "icon": "/images/icons/vscode-original.svg" },
+      { "name": "Trello", "icon": "/images/icons/trello-original.svg" },
+      { "name": "Insomnia", "icon": "/images/icons/insomnia-original.svg" },
+      { "name": "Cloudinary", "icon": "/images/icons/cloudinary-original.svg" },
+      { "name": "Vercel", "icon": "/images/icons/vercel-original.svg" },
+      { "name": "Google Cloud", "icon": "/images/icons/googlecloud-original.svg" }
     ],
     "softSkillsList": [
       "Teamwork",
@@ -152,9 +149,6 @@
     ]
   },
   "contact": {
-    "intro": "Feel free to contact me through the following options:",
-    "email": "Email",
-    "linkedin": "LinkedIn",
-    "whatsapp": "WhatsApp"
+    "intro": "Feel free to contact me through the following options:"
   }
 }

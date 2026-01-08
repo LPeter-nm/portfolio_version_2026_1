@@ -1,7 +1,8 @@
 'use client';
 
+import { Linkedin, Mail, Instagram } from 'lucide-react';
+import { WhatsApp } from '@mui/icons-material';
 import { useTranslations } from 'next-intl';
-import React from 'react';
 
 export default function Contact() {
   const t = useTranslations('contact');
@@ -9,17 +10,17 @@ export default function Contact() {
   return (
     <div className="flex flex-col min-h-screen p-6 text-lg">
       {t('intro')}
-      <ul className="list-disc list-inside space-y-2 mt-4">
-        <li>
-          <strong>{t('email')}:</strong>{' '}
+      <div className="flex flex-col mt-4 space-y-3">
+        <div className="flex items-center gap-2">
+          <Mail className="inline-block mr-2 mb-1" />
           <a
             href="mailto:pg.nasmatos@outlook.com"
             className="text-blue-600 hover:underline">
             pg.nasmatos@outlook.com
           </a>
-        </li>
-        <li>
-          <strong>{t('linkedin')}:</strong>{' '}
+        </div>
+        <div className="flex items-center gap-2">
+          <Linkedin className="inline-block mr-2 mb-1" />
           <a
             href="https://www.linkedin.com/in/pedro-gabriel-488a05284/"
             target="_blank"
@@ -27,9 +28,9 @@ export default function Contact() {
             className="text-blue-600 hover:underline">
             https://www.linkedin.com/in/pedro-gabriel-488a05284/
           </a>
-        </li>
-        <li>
-          <strong>{t('whatsapp')}:</strong>{' '}
+        </div>
+        <div className="flex items-center gap-2">
+          <WhatsApp className="inline-block mr-2 mb-1" />
           <a
             href="https://wa.me/5586988242498"
             target="_blank"
@@ -37,8 +38,18 @@ export default function Contact() {
             className="text-blue-600 hover:underline">
             +55 (86) 98824-2498
           </a>
-        </li>
-      </ul>
+        </div>
+        <div className="flex items-center gap-2">
+          <Instagram className="inline-block mr-2 mb-1" />
+          <a
+            href="https://www.instagram.com/pedin_nm/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline">
+            @pedin_nm
+          </a>
+        </div>
+      </div>
     </div>
   );
 }

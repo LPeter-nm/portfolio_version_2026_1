@@ -8,12 +8,13 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import Abilities from '@/pages/abilities';
 import About from '@/pages/about';
 import Contact from '@/pages/contact';
 import Experience from '@/pages/experience';
 import Projects from '@/pages/projects';
-import { ArrowLeft, Github, Instagram, Linkedin, Moon, Sun, Languages } from 'lucide-react';
+import { ArrowLeft, Github, Linkedin, Moon, Sun, Languages, FileText } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import { useTranslations } from 'next-intl';
 import { useRouter, useParams } from 'next/navigation';
@@ -221,34 +222,43 @@ export default function Home() {
                 <AvatarImage src="https://github.com/LPeter-nm.png" />
                 <AvatarFallback>LPeter-nm</AvatarFallback>
               </Avatar>
-              <div className="flex gap-5">
-                <button
-                  style={{
-                    cursor: `url('/cursor.cur'), auto`,
-                  }}
-                  className="hover:transform hover:scale-110 transition-transform"
-                  onClick={() => window.open('https://www.instagram.com/pedin_nm/', '_blank')}>
-                  <Instagram />
-                </button>
-                <button
-                  style={{
-                    cursor: `url('/cursor.cur'), auto`,
-                  }}
-                  className="hover:transform hover:scale-110 transition-transform"
-                  onClick={() => window.open('https://github.com/LPeter-nm', '_blank')}>
-                  <Github />
-                </button>
-                <button
-                  style={{
-                    cursor: `url('/cursor.cur'), auto`,
-                  }}
-                  className="hover:transform hover:scale-110 transition-transform"
-                  onClick={() =>
-                    window.open('https://www.linkedin.com/in/pedro-gabriel-488a05284/', '_blank')
-                  }>
-                  <Linkedin />
-                </button>
-              </div>
+              <TooltipProvider>
+                <div className="flex gap-5">
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <button
+                        style={{
+                          cursor: `url('/cursor.cur'), auto`,
+                        }}
+                        className="hover:transform hover:scale-110 transition-transform"
+                        onClick={() => window.open('https://github.com/LPeter-nm', '_blank')}>
+                        <Github />
+                      </button>
+                    </TooltipTrigger>
+                    <TooltipContent>
+                      <p>GitHub</p>
+                    </TooltipContent>
+                  </Tooltip>
+
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <button
+                        style={{
+                          cursor: `url('/cursor.cur')`,
+                        }}
+                        className="hover:transform hover:scale-110 transition-transform"
+                        onClick={() => {
+                          window.open('/curriculoPedroGabriel.pdf', '_blank');
+                        }}>
+                        <FileText />
+                      </button>
+                    </TooltipTrigger>
+                    <TooltipContent>
+                      <p>{t('resume')}</p>
+                    </TooltipContent>
+                  </Tooltip>
+                </div>
+              </TooltipProvider>
             </div>
 
             <div className="flex flex-col items-center space-y-8 p-12">
