@@ -101,7 +101,8 @@ export default function Home() {
       style={{
         cursor: `url('/cursor.cur'), auto`,
       }}>
-      <div className="fixed top-14 right-16 z-50">
+      {/* Botões de tema e idioma - responsivos */}
+      <div className="fixed top-4 md:top-14 right-4 md:right-16 z-50">
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button
@@ -122,7 +123,7 @@ export default function Home() {
         </DropdownMenu>
       </div>
 
-      <div className="fixed top-14 right-32 z-50">
+      <div className="fixed top-4 md:top-14 right-16 md:right-32 z-50">
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button
@@ -154,7 +155,8 @@ export default function Home() {
 
       {!activePage && (
         <>
-          <div className="fixed top-8 left-8 w-20 h-20 pointer-events-none z-50">
+          {/* Bordas decorativas - ocultas no mobile */}
+          <div className="hidden md:block fixed top-8 left-8 w-20 h-20 pointer-events-none z-50">
             <div
               className="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-amber-400 via-yellow-500 to-amber-600"
               style={{ clipPath: 'polygon(0 0, 100% 0, 95% 100%, 5% 100%)' }}
@@ -165,7 +167,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="fixed top-8 right-8 w-20 h-20 pointer-events-none z-50">
+          <div className="hidden md:block fixed top-8 right-8 w-20 h-20 pointer-events-none z-50">
             <div
               className="absolute top-0 right-0 w-full h-1 bg-linear-to-b from-amber-600 via-yellow-500 to-amber-400"
               style={{ clipPath: 'polygon(5% 100%, 0 0, 100% 0, 95% 100%)' }}
@@ -176,7 +178,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="fixed bottom-8 left-8 w-20 h-20 pointer-events-none z-50">
+          <div className="hidden md:block fixed bottom-8 left-8 w-20 h-20 pointer-events-none z-50">
             <div
               className="absolute bottom-0 left-0 w-full h-1 bg-linear-to-r from-amber-400 via-yellow-500 to-amber-600"
               style={{ clipPath: 'polygon(5% 0, 0 100%, 100% 100%, 95% 0)' }}
@@ -187,7 +189,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="fixed bottom-8 right-8 w-20 h-20 pointer-events-none z-50">
+          <div className="hidden md:block fixed bottom-8 right-8 w-20 h-20 pointer-events-none z-50">
             <div
               className="absolute bottom-0 right-0 w-full h-1 bg-linear-to-r from-amber-600 via-yellow-500 to-amber-400"
               style={{ clipPath: 'polygon(0 100%, 5% 0, 95% 0, 100% 100%)' }}
@@ -197,7 +199,10 @@ export default function Home() {
               style={{ clipPath: 'polygon(0 5%, 100% 0, 100% 100%, 0 95%)' }}
             />
           </div>
-          <div className="flex items-center justify-center space-x-12 animate-in fade-in duration-500 ">
+
+          {/* Layout responsivo */}
+          <div className="flex flex-col md:flex-row items-center justify-center md:space-x-12 animate-in fade-in duration-500 px-4 md:px-0">
+            {/* Menu direito - primeiro no mobile, ao lado no desktop */}
             <div className="flex flex-col items-center space-y-8 p-12">
               {menuItemsRight.map((item) => (
                 <Button
@@ -211,14 +216,16 @@ export default function Home() {
                 </Button>
               ))}
             </div>
-            <div className="flex flex-col items-center space-y-8">
+
+            {/* Seção central - Avatar e texto */}
+            <div className="flex flex-col items-center space-y-6 md:space-y-8">
               <div className="h-12 flex items-center justify-center w-100">
-                <span className="text-3xl font-bold">
+                <span className="text-2xl md:text-3xl font-bold text-center">
                   {displayText}
                   <span className="animate-pulse">|</span>
                 </span>
               </div>
-              <Avatar className="h-72 w-72">
+              <Avatar className="h-48 w-48 md:h-72 md:w-72">
                 <AvatarImage src="https://github.com/LPeter-nm.png" />
               </Avatar>
               <TooltipProvider>
@@ -231,7 +238,7 @@ export default function Home() {
                         }}
                         className="hover:transform hover:scale-110 transition-transform"
                         onClick={() => window.open('https://github.com/LPeter-nm', '_blank')}>
-                        <Github />
+                        <Github className="h-6 w-6 md:h-8 md:w-8" />
                       </button>
                     </TooltipTrigger>
                     <TooltipContent>
@@ -249,7 +256,7 @@ export default function Home() {
                         onClick={() => {
                           window.open('/curriculoPedroGabriel.pdf', '_blank');
                         }}>
-                        <FileText />
+                        <FileText className="h-6 w-6 md:h-8 md:w-8" />
                       </button>
                     </TooltipTrigger>
                     <TooltipContent>
@@ -260,6 +267,7 @@ export default function Home() {
               </TooltipProvider>
             </div>
 
+            {/* Menu esquerdo - oculto no mobile */}
             <div className="flex flex-col items-center space-y-8 p-12">
               {menuItemsLeft.map((item) => (
                 <Button
@@ -276,17 +284,18 @@ export default function Home() {
           </div>
         </>
       )}
+
       {activePage && (
-        <div className="min-h-screen w-full px-24 py-18 animate-in fade-in duration-500 space-y-8">
+        <div className="min-h-screen w-full px-4 md:px-24 py-12 md:py-18 animate-in fade-in duration-500 space-y-6 md:space-y-8">
           <div className="max-w-7xl mx-auto">
             <button
               style={{
                 cursor: `url('/cursor.cur'), auto`,
               }}
               onClick={handleBack}>
-              <span className="flex mr-2 gap-5 items-center">
-                <ArrowLeft />
-                <h1 className="text-4xl font-bold">
+              <span className="flex mr-2 gap-3 md:gap-5 items-center">
+                <ArrowLeft className="h-5 w-5 md:h-6 md:w-6" />
+                <h1 className="text-2xl md:text-4xl font-bold">
                   {menuItems.find((item) => item.id === activePage)?.label}
                 </h1>
               </span>
