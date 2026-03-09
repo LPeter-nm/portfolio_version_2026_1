@@ -14,6 +14,7 @@ import About from '@/components/sections/about';
 import Contact from '@/components/sections/contact';
 import Experience from '@/components/sections/experience';
 import Projects from '@/components/sections/projects';
+import Academic from '@/components/sections/academic';
 import { ArrowLeft, Github, Linkedin, Moon, Sun, Languages, FileText } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import { useTranslations } from 'next-intl';
@@ -83,9 +84,10 @@ export default function Home() {
   const menuItems = [
     { id: 1, label: t('about'), component: About },
     { id: 2, label: t('experience'), component: Experience },
-    { id: 3, label: t('projects'), component: Projects },
-    { id: 4, label: t('abilities'), component: Abilities },
-    { id: 5, label: t('contact'), component: Contact },
+    { id: 3, label: t('academic'), component: Academic },
+    { id: 4, label: t('projects'), component: Projects },
+    { id: 5, label: t('abilities'), component: Abilities },
+    { id: 6, label: t('contact'), component: Contact },
   ];
 
   const menuItemsRight = menuItems.slice(0, 3);
