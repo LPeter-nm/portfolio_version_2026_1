@@ -4,6 +4,7 @@
     "name": "Pedro Gabriel",
     "about": "Sobre mí",
     "experience": "Experiencia",
+    "academic": "Formación",
     "projects": "Proyectos",
     "abilities": "Habilidades",
     "contact": "Contacto",
@@ -41,6 +42,31 @@
         "action": "jun 2023 - jun 2023",
         "content": "Trabajé como monitor en el I Coloquio de Gestión y Negocios en el IFMA, auxiliando en la organización, coordinación y soporte durante las actividades. Mis responsabilidades incluían ayudar en la logística de los eventos, garantizar el buen funcionamiento de las sesiones y ofrecer soporte a los participantes y ponentes.",
         "footer": "Habilidades Desarrolladas: Organización de Eventos, Comunicación, Trabajo en Equipo"
+      }
+    ]
+  },
+  "academic": {
+    "cards": [
+      {
+        "title": "Técnico en Electroelectrónica",
+        "institution": "Instituto Federal de Maranhão (IFMA) - Campus Timon",
+        "period": "2020 - 2022",
+        "description": "Formación técnica con énfasis en sistemas electroelectrónicos, automatización y mantenimiento. Esta base consolidó mi razonamiento lógico y visión sistémica, que hoy aplico directamente en el desarrollo de software.",
+        "footer": "Estado: Concluido"
+      },
+      {
+        "title": "Tecnólogo en Sistemas para Internet",
+        "institution": "Instituto Federal de Maranhão (IFMA) - Campus Timon",
+        "period": "2023 - 2025",
+        "description": "Carrera de educación superior centrada en el desarrollo de aplicaciones web, móviles y servicios para internet. Durante la graduación, profundicé mis conocimientos en programación, bases de datos, arquitectura de software y desarrollo full-stack.",
+        "footer": "Estado: Concluido"
+      },
+      {
+        "title": "Tecnólogo en Inteligencia Artificial",
+        "institution": "Piauí Instituto de Tecnología (PIT)",
+        "period": "2026 - Actualidad",
+        "description": "Carrera de grado en Inteligencia Artificial, con enfoque en el desarrollo de modelos de machine learning y deep learning. Este curso me permite aplicar mis habilidades técnicas y crecer profesionalmente, contribuyendo a proyectos desafiantes.",
+        "footer": "Estado: En curso"
       }
     ]
   },

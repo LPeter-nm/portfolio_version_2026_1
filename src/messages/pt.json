@@ -4,6 +4,7 @@
     "name": "Pedro Gabriel",
     "about": "Sobre",
     "experience": "Experiência",
+    "academic": "Formação",
     "projects": "Projetos",
     "abilities": "Habilidades",
     "contact": "Contato",
@@ -41,6 +42,31 @@
         "action": "jun 2023 - jun 2023",
         "content": "Atuei como monitor no I Colóquio de Gestão e Negócios no IFMA, auxiliando na organização, coordenação e suporte durante as atividades. Minhas responsabilidades incluíam ajudar na logística dos eventos, garantir o bom andamento das sessões e oferecer suporte aos participantes e palestrantes.",
         "footer": "Habilidades Desenvolvidas: Organização de Eventos, Comunicação, Trabalho em Equipe"
+      }
+    ]
+  },
+  "academic": {
+    "cards": [
+      {
+        "title": "Técnico em Eletroeletrônica",
+        "institution": "Instituto Federal do Maranhão (IFMA) - Campus Timon",
+        "period": "2020 - 2022",
+        "description": "Formação técnica com ênfase em sistemas eletroeletrônicos, automação e manutenção. Essa base consolidou meu raciocínio lógico e visão sistêmica, que hoje aplico diretamente no desenvolvimento de software.",
+        "footer": "Status: Concluído"
+      },
+      {
+        "title": "Tecnólogo em Sistemas para Internet",
+        "institution": "Instituto Federal do Maranhão (IFMA) - Campus Timon",
+        "period": "2023 -2025",
+        "description": "Curso superior focado em desenvolvimento de aplicações web, mobile e serviços para internet. Durante a graduação, aprofundei meus conhecimentos em programação, bancos de dados, arquitetura de software e desenvolvimento full-stack.",
+        "footer": "Status: Concluído"
+      },
+      {
+        "title": "Tecnólogo em Inteligência Artificial",
+        "institution": "Piauí Instituto de Tecnologia (PIT)",
+        "period": "2026 - Presente",
+        "description": "Curso superior em Inteligência Artificial, com foco em desenvolvimento de modelos de machine learning e deep learning. Este curso me permite aplicar minhas habilidades técnicas e crescer profissionalmente, contribuindo para projetos desafiadores.",
+        "footer": "Status: Em andamento"
       }
     ]
   },

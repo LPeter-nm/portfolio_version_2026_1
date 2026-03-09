@@ -4,6 +4,7 @@
     "name": "Pedro Gabriel",
     "about": "About",
     "experience": "Experience",
+    "academic": "Education",
     "projects": "Projects",
     "abilities": "Skills",
     "contact": "Contact",
@@ -41,6 +42,31 @@
         "action": "Jun 2023 - Jun 2023",
         "content": "I worked as a monitor at the 1st Business and Management Colloquium at IFMA, assisting in the organization, coordination and support during activities. My responsibilities included helping with event logistics, ensuring the smooth running of sessions and providing support to participants and speakers.",
         "footer": "Skills Developed: Event Organization, Communication, Teamwork"
+      }
+    ]
+  },
+  "academic": {
+    "cards": [
+      {
+        "title": "Electronics Technician",
+        "institution": "Federal Institute of Maranhão (IFMA) - Timon Campus",
+        "period": "2020 - 2022",
+        "description": "Technical course with emphasis on electromechanical and electronic systems, automation and maintenance. This foundation strengthened my logical reasoning and systemic vision, which I now apply directly to software development.",
+        "footer": "Status: Completed"
+      },
+      {
+        "title": "Internet Systems Technologist",
+        "institution": "Federal Institute of Maranhão (IFMA) - Timon Campus",
+        "period": "2023 - 2025",
+        "description": "Undergraduate degree focused on web, mobile and internet services development. Throughout the course, I deepened my knowledge in programming, databases, software architecture and full-stack development.",
+        "footer": "Status: Completed"
+      },
+      {
+        "title": "Artificial Intelligence Technologist",
+        "institution": "Piauí Institute of Technology (PIT)",
+        "period": "2026 - Present",
+        "description": "Undergraduate degree in Artificial Intelligence, focused on developing machine learning and deep learning models. This course allows me to apply my technical skills and grow professionally, contributing to challenging projects.",
+        "footer": "Status: In progress"
       }
     ]
   },
