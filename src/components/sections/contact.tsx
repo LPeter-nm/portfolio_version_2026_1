@@ -15,7 +15,7 @@ export default function Contact() {
           <a
             href="mailto:pg.nasmatos@outlook.com"
             className="text-blue-600 hover:underline">
-            pg.nasmatos@outlook.com
+            pedrognm252@gmail.com
           </a>
         </div>
         <div className="flex items-center gap-2">
