@@ -163,7 +163,8 @@
       { "name": "Insomnia", "icon": "/images/icons/insomnia-original.svg" },
       { "name": "Cloudinary", "icon": "/images/icons/cloudinary-original.svg" },
       { "name": "Vercel", "icon": "/images/icons/vercel-original.svg" },
-      { "name": "Google Cloud", "icon": "/images/icons/googlecloud-original.svg" }
+      { "name": "Google Cloud", "icon": "/images/icons/googlecloud-original.svg" },
+      { "name": "PowerBI", "icon": "/images/icons/power-bi-icon.svg" }
     ],
     "softSkillsList": [
       "Teamwork",
