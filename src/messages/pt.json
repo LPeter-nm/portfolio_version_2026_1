@@ -42,6 +42,13 @@
         "action": "Jun 2023 - Jun 2023",
         "content": "Atuei como monitor no I Colóquio de Gestão e Negócios no IFMA, auxiliando na organização, coordenação e suporte durante as atividades. Minhas responsabilidades incluíam ajudar na logística dos eventos, garantir o bom andamento das sessões e oferecer suporte aos participantes e palestrantes.",
         "footer": "Habilidades Desenvolvidas: Organização de Eventos, Comunicação, Trabalho em Equipe"
+      },
+      {
+        "title": "Auxiliar Administrativo 3",
+        "description": "DPL Construções",
+        "action": "Abr 2026 - Atual",
+        "content": "Atuo como auxiliar administrativo, auxiliando na monitorização de aplicação de materiais de equipes e contrução de BIs com Power BI Desktop para monitoramento como em auditorias e aplicação desses materiais",
+        "footer": "Habilidades: Power BI Desktop, Comunicação, Trabalho em Equipe, Administrativo"
       }
     ]
   },
@@ -125,6 +132,15 @@
         "content": "Plataforma de e-commerce desenvolvida para venda de produtos variados. A aplicação permite aos usuários navegar por diferentes categorias de produtos, visualizar detalhes completos, adicionar itens ao carrinho de compras e finalizar a compra com segurança. O sistema também inclui funcionalidades administrativas para gerenciar o catálogo de produtos, pedidos e usuários. Trabalho em equipe na comunidade Developer Community, onde fui responsável pelo desenvolvimento do back end utilizando Nest.js e PostgreSQL.",
         "technologies": ["React", "Axios", "Nest.js", "PostgreSQL", "Cloudinary"],
         "link": "https://github.com/DeveloperCommunitty/E-commerce-back-end"
+      },
+      {
+        "title": "Controle de Vendas",
+        "description": "Sistema de Controle de Vendas Simples para retormada de aprendizado",
+        "mainImage": "#",
+        "imagesDetail": [],
+        "content": "Sistema para controlar contas em fiado por clientes para loja de vendas simples. Sistema criado com intuito de retormar o aprendizado após meses sem prática na área",
+        "technologies": ["Supabase", "RLS", "Next.js"],
+        "link": "https://github.com/LPeter-nmPITAccount/controle-vendas"
       }
     ]
   },
